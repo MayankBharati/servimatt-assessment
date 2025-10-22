@@ -6,33 +6,33 @@ This test suite validates the rate limiting functionality without making actual 
 
 ## What's Tested
 
-### ✅ Basic Rate Limiting
+### Basic Rate Limiting
 - Allows requests under the limit
 - Blocks requests at the limit  
 - Blocks all subsequent requests after limit exceeded
 
-### ✅ Time Window Behavior
+### Time Window Behavior
 - Resets count after time window expires
 - Provides accurate resetAt timestamps
 - Handles various window sizes (short and long)
 
-### ✅ Multiple IP Tracking
+### Multiple IP Tracking
 - Tracks different IPs independently
 - One IP being blocked doesn't affect others
 - Concurrent requests from same IP handled correctly
 
-### ✅ Remaining Count Accuracy
+### Remaining Count Accuracy
 - Decrements remaining count correctly
 - Returns 0 when blocked
 - Accurate across multiple requests
 
-### ✅ Edge Cases
+### Edge Cases
 - Handles limit of 1
 - Very short time windows (50ms)
 - Concurrent requests
 - Default configuration
 
-### ✅ IP Extraction
+### IP Extraction
 - Extracts from various headers (x-real-ip, x-forwarded-for, cf-connecting-ip)
 - Returns 'unknown' when no IP headers present
 - Prioritizes headers correctly

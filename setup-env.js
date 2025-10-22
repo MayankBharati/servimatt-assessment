@@ -11,11 +11,11 @@ const rl = readline.createInterface({
 
 const envPath = path.join(__dirname, 'apps', 'web', '.env.local');
 
-console.log('🚀 AI Nexus Setup Helper\n');
+console.log('AI Nexus Setup Helper\n');
 
 console.log('This will help you set up your environment variables.\n');
 
-console.log('📋 You will need:');
+console.log('You will need:');
 console.log('1. OpenAI API key (get from https://platform.openai.com/api-keys)');
 console.log('2. InstantDB App ID (create at https://instantdb.com)\n');
 
@@ -38,12 +38,12 @@ ${adminSecret ? `INSTANTDB_ADMIN_SECRET=${adminSecret}` : '# INSTANTDB_ADMIN_SEC
 
       try {
         fs.writeFileSync(envPath, envContent);
-        console.log('\n✅ Environment file updated successfully!');
-        console.log('\n🎉 Setup complete! You can now run:');
+        console.log('\nEnvironment file updated successfully!');
+        console.log('\nSetup complete! You can now run:');
         console.log('   pnpm dev');
         console.log('\nThen open http://localhost:1290 in your browser.');
       } catch (error) {
-        console.error('\n❌ Error writing environment file:', error.message);
+        console.error('\nError writing environment file:', error.message);
       }
       
       rl.close();

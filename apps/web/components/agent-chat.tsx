@@ -273,7 +273,7 @@ export function AgentChat({ chatId, currentAgent }: AgentChatProps) {
       await addMessage({
         chatId,
         role: 'user',
-        content: userMessageContent || '📎 Uploaded files',
+        content: userMessageContent || 'Uploaded files',
       });
 
       // Call AI agent API with conditional streaming
@@ -398,7 +398,7 @@ export function AgentChat({ chatId, currentAgent }: AgentChatProps) {
           error.message.includes('429')
         ) {
           errorMessage =
-            '⏱️ Rate limit reached. You can make 20 requests per hour. Please try again later.';
+            'Rate limit reached. You can make 20 requests per hour. Please try again later.';
         } else {
           errorMessage = error.message;
         }
@@ -488,7 +488,7 @@ export function AgentChat({ chatId, currentAgent }: AgentChatProps) {
               {/* Personal touch - Welcome message */}
               <div className="mb-6 p-4 rounded-lg bg-gradient-to-r from-primary/5 to-purple-500/5 border border-primary/10">
                 <p className="text-sm text-muted-foreground">
-                  ✨ Ready to help you with your questions! I can analyze files, answer questions, and provide insights.
+                  Ready to help you with your questions! I can analyze files, answer questions, and provide insights.
                 </p>
               </div>
 
@@ -511,7 +511,6 @@ export function AgentChat({ chatId, currentAgent }: AgentChatProps) {
                           className="w-full text-left px-4 py-3 rounded-lg border border-border bg-muted/30 hover:bg-muted hover:border-primary/50 transition-all text-sm bounce-in sparkle hover:shadow-lg hover:shadow-primary/10"
                           style={{ animationDelay: `${index * 0.1}s` }}
                         >
-                          <span className="text-primary mr-2">✨</span>
                           {prompt}
                         </button>
                       ),

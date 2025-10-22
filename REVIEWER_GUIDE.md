@@ -56,7 +56,7 @@ Visit: `http://localhost:1290`
    - Create chats with your custom agent
 
 3. **RAG File Upload**
-   - Click the 📎 paperclip icon in chat
+   - Click the paperclip icon in chat
    - Upload a CSV, JSON, or TXT file
    - Ask questions about the file contents
    - Watch the AI analyze and respond with insights

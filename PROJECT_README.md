@@ -21,21 +21,21 @@ This application demonstrates modern AI application development with:
 
 Built with Next.js 15, React 19, TypeScript, and shadcn/ui components.
 
-## 🎯 Servimatt Assessment Compliance
+## Servimatt Assessment Compliance
 
 This project fulfills all requirements for the Frontend Engineer Technical Assessment:
 
-### ✅ Core Requirements
+### Core Requirements
 - **Prompt input + submit button** - Modern chat interface with enhanced styling
 - **AI API integration** - OpenAI Agents SDK with streaming responses
 - **Dynamic response display** - Real-time streaming with markdown rendering
 - **Error handling and loading states** - Comprehensive error management
 
-### ✅ Bonus Features
+### Bonus Features
 - **Chat history persistence** - Full conversation history with InstantDB
 - **Clear functionality** - New chat creation and thread management
 
-### 🚀 Advanced Features (Beyond Requirements)
+### Advanced Features (Beyond Requirements)
 - **Multi-agent system** - Specialized agents for different domains
 - **RAG document analysis** - File upload and content analysis
 - **Real-time synchronization** - Live data updates across sessions
@@ -149,7 +149,7 @@ app-v1/
    INSTANTDB_ADMIN_SECRET=your_admin_token
    ```
 
-   > **💡 For Reviewers/Recruiters:**
+   > **For Reviewers/Recruiters:**
    > The live demo is fully functional at [servimatt.brew.build](https://servimatt.brew.build).
    > If you'd like to run locally, you can use the demo InstantDB app:
    >
@@ -194,7 +194,7 @@ app-v1/
 
 ### Using RAG with Files
 
-1. Click the **📎 paperclip icon** in the chat input
+1. Click the **paperclip icon** in the chat input
 2. Select files (CSV, JSON, MD, XLSX, TXT)
 3. Ask questions about the uploaded content
 4. The AI analyzes and responds with insights
