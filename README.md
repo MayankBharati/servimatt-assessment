@@ -1,12 +1,8 @@
 # AI Nexus - Personal AI Assistant Platform
 
-<img width="1538" height="989" alt="AI Nexus Interface" src="https://github.com/user-attachments/assets/dd40e00c-afc4-49e3-ad5d-fec93de79691" />
-
 > **For full documentation, see [PROJECT_README.md](./PROJECT_README.md)**
 
 **AI Nexus** is a personal AI assistant platform created by **Mayank Bharati** for the Servimatt Frontend Engineer Technical Assessment. It features multi-agent orchestration, RAG document analysis, and a beautiful modern interface.
-
-**Live Demo:** [ai-nexus-mayank.vercel.app](https://ai-nexus-mayank.vercel.app/dashboard)
 
 ## Quick Start
 
