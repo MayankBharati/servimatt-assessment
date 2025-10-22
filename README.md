@@ -2,6 +2,10 @@
 
 A lightweight AI chat application built with Next.js and React.
 
+## Live Demo
+
+[View Live Application](https://servimatt-assessment-g3ld4fecs.vercel.app/dashboard)
+
 ## Setup Instructions
 
 ### Prerequisites
